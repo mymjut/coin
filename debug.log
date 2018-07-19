@@ -1,0 +1,72 @@
+2018-07-19 07:39:59 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2018-07-19 07:39:59 XBI version v4.2.0.2-f9b7790-dirty (2018-07-16 00:15:31 -0300)
+2018-07-19 07:39:59 Using OpenSSL version OpenSSL 1.0.2g  1 Mar 2016
+2018-07-19 07:39:59 Using BerkeleyDB version Berkeley DB 4.8.30: (April  9, 2010)
+2018-07-19 07:39:59 Default data directory /root/.XBI
+2018-07-19 07:39:59 Using data directory /root/.XBI
+2018-07-19 07:39:59 Using config file /root/.XBI/xbi.conf
+2018-07-19 07:39:59 Using at most 125 connections (1024 file descriptors available)
+2018-07-19 07:39:59 Using 0 threads for script verification
+2018-07-19 07:39:59 Using wallet wallet.dat
+2018-07-19 07:39:59 init message: Verifying wallet...
+2018-07-19 07:39:59 CDBEnv::Open: LogDir=/root/.XBI/database ErrorFile=/root/.XBI/db.log
+2018-07-19 07:39:59 Bound to [::]:7332
+2018-07-19 07:39:59 Bound to 0.0.0.0:7332
+2018-07-19 07:39:59 init message: Loading block index...
+2018-07-19 07:39:59 Opening LevelDB in /root/.XBI/zerocoin
+2018-07-19 07:39:59 Opened LevelDB successfully
+2018-07-19 07:39:59 Opening LevelDB in /root/.XBI/sporks
+2018-07-19 07:39:59 Opened LevelDB successfully
+2018-07-19 07:39:59 Opening LevelDB in /root/.XBI/blocks/index
+2018-07-19 07:39:59 Opened LevelDB successfully
+2018-07-19 07:39:59 Opening LevelDB in /root/.XBI/chainstate
+2018-07-19 07:39:59 Opened LevelDB successfully
+2018-07-19 07:39:59 init message: Loading sporks...
+2018-07-19 07:39:59 LoadSporksFromDB : no previous value for SPORK_2_SWIFTNODE found in database
+2018-07-19 07:39:59 LoadSporksFromDB : no previous value for SPORK_3_SWIFTNODE_BLOCK_FILTERING found in database
+2018-07-19 07:39:59 LoadSporksFromDB : no previous value for SPORK_5_MAX_VALUE found in database
+2018-07-19 07:39:59 LoadSporksFromDB : no previous value for SPORK_7_MASTERNODE_SCANNING found in database
+2018-07-19 07:39:59 LoadSporksFromDB : no previous value for SPORK_8_MASTERNODE_PAYMENT_ENFORCEMENT found in database
+2018-07-19 07:39:59 LoadSporksFromDB : no previous value for SPORK_9_MASTERNODE_BUDGET_ENFORCEMENT found in database
+2018-07-19 07:39:59 LoadSporksFromDB : no previous value for SPORK_10_MASTERNODE_PAY_UPDATED_NODES found in database
+2018-07-19 07:39:59 LoadSporksFromDB : no previous value for SPORK_11_LOCK_INVALID_UTXO found in database
+2018-07-19 07:39:59 LoadSporksFromDB : no previous value for SPORK_13_ENABLE_SUPERBLOCKS found in database
+2018-07-19 07:39:59 LoadSporksFromDB : no previous value for SPORK_14_NEW_PROTOCOL_ENFORCEMENT found in database
+2018-07-19 07:39:59 LoadSporksFromDB : no previous value for SPORK_15_NEW_PROTOCOL_ENFORCEMENT_2 found in database
+2018-07-19 07:39:59 LoadSporksFromDB : no previous value for SPORK_16_ZEROCOIN_MAINTENANCE_MODE found in database
+2018-07-19 07:39:59 init message: Loading block index...
+2018-07-19 07:39:59 LoadBlockIndexDB: last block file = 0
+2018-07-19 07:39:59 LoadBlockIndexDB: last block file info: CBlockFileInfo(blocks=0, size=0, heights=0...0, time=1970-01-01...1970-01-01)
+2018-07-19 07:39:59 Checking all blk files are present...
+2018-07-19 07:39:59 LoadBlockIndexDB: Last shutdown was prepared: true
+2018-07-19 07:39:59 LoadBlockIndexDB(): transaction index enabled
+2018-07-19 07:39:59 Initializing databases...
+2018-07-19 07:39:59 Pre-allocating up to position 0x1000000 in blk00000.dat
+2018-07-19 07:39:59 UpdateTip: new best=00000ca4ce4324d11fe3a9f2abadeda5a4caad1620fdf115de8fc176adf9caf7  height=0  log2_work=20.000022  tx=1  date=2018-05-07 11:12:51 progress=0.001371  cache=0
+2018-07-19 07:39:59 init message: Verifying blocks...
+2018-07-19 07:39:59 Shutdown requested. Exiting.
+2018-07-19 07:39:59 PrepareShutdown: In progress...
+2018-07-19 07:39:59 StopNode()
+2018-07-19 07:39:59 ERROR: Read : Failed to open file /root/.XBI/mncache.dat
+2018-07-19 07:39:59 ERROR: Read : Failed to open file /root/.XBI/budget.dat
+2018-07-19 07:39:59 ERROR: Read : Failed to open file /root/.XBI/mnpayments.dat
+2018-07-19 07:39:59 Shutdown: done
